@@ -50,32 +50,30 @@ RERA_SOURCES = {
         "label": "MahaRERA (Maharashtra)",
         "web_pages": [
             "https://maharera.maharashtra.gov.in/faq",
-            "https://maharera.maharashtra.gov.in/about-act",
-            "https://maharera.maharashtra.gov.in/maha-rera-act-rules",
-            "https://maharera.maharashtra.gov.in/forms",
-            "https://maharera.maharashtra.gov.in/registration-fees",
+            "https://maharera.maharashtra.gov.in/introduction-about-maharera",
+            "https://maharera.maharashtra.gov.in/promoter-guidance",
+            "https://maharera.maharashtra.gov.in/guidance-home-buyers-0",
         ],
         # Pages that list PDF links — scraper will find and download them
         "pdf_listing_pages": [
-            "https://maharera.maharashtra.gov.in/circulars",
-            "https://maharera.maharashtra.gov.in/orders",
-            "https://maharera.maharashtra.gov.in/judgements",
+            "https://maharera.maharashtra.gov.in/orders-judgements",
+            "https://maharera.maharashtra.gov.in/orders-passed-designated-court-under-mpid-act",
         ],
         "base_url": "https://maharera.maharashtra.gov.in",
     },
 
     # ── National / General RERA ────────────────────────────────────────────
-    "rera_national": {
-        "label": "National RERA (MoHUA)",
-        "web_pages": [
-            "https://rera.gov.in/",
-            "https://rera.gov.in/about-rera",
-            "https://rera.gov.in/real-estate-act",
-        ],
-        "pdf_listing_pages": [
-            "https://rera.gov.in/rules-regulations",
-            "https://rera.gov.in/advisory-committee",
-        ],
-        "base_url": "https://rera.gov.in",
-    },
+    # The national rera.gov.in domain is currently down/failing to resolve.
+    # Leaving it disabled to prevent DNS errors during ingestion.
+    # "rera_national": {
+    #     "label": "National RERA (MoHUA)",
+    #     "web_pages": [
+    #         "https://rera.gov.in/",
+    #         "https://rera.gov.in/about-rera",
+    #     ],
+    #     "pdf_listing_pages": [
+    #         "https://rera.gov.in/rules-regulations",
+    #     ],
+    #     "base_url": "https://rera.gov.in",
+    # },
 }
