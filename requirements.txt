@@ -1,0 +1,27 @@
+# Discord
+discord.py>=2.3.2
+
+# Google Gemini via OpenAI-compatible API (no extra SDK needed!)
+openai>=1.30.0
+
+# Vector DB (local)
+chromadb>=0.5.0
+
+# Local Embeddings (free, runs on CPU)
+sentence-transformers>=3.0.0
+
+# PDF Parsing
+PyMuPDF>=1.24.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Text Splitting
+langchain-text-splitters>=0.2.0
+
+# Env & Utils
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+tqdm>=4.66.0
